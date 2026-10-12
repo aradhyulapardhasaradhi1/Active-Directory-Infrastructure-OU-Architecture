@@ -47,15 +47,4 @@ Work completed
 10. Installed Windows 11, renamed the client to CLINTComputer, and joined it to pardhu.com.
 11. Placed the client computer object in the Computers OU.
 
-Validation checklist
-Mark these complete only after testing them in your environment.
-- [ ] Confirm the server's IP address with ipconfig /all.
-- [ ] Confirm the Windows 11 client uses 192.168.211.139 for DNS.
-- [ ] Run ipconfig /all on the client and review network settings.
-- [ ] Run nslookup pardhu.com on the client.
-- [ ] Run ping 192.168.211.139 to test basic IP connectivity (a failed ping can also be caused by firewall settings).
-- [ ] Confirm the client is joined to the pardhu.com domain.
-- [ ] Confirm CLINTComputer appears in the Computers OU.
-- [ ] Confirm each user is a member of the correct group in Active Directory Users and Computers.
-  
-  
+
