@@ -7,19 +7,9 @@ Project objectives
 - Rename the client computer and join it to the pardhu.com domain.
 - Document the setup as an IT Helpdesk / System Administration practice project.
 
-  flowchart TD
-    A["pardhu.com"] --> B["my-ou"]
-    B --> C["Computers OU"]
-    B --> D["Groups OU"]
-    B --> E["Users OU"]
-    C --> F["CLINTComputer"]
-    D --> G["Distro-group"]
-    D --> H["IT-group"]
-    E --> I["Ajay DR"]
-    E --> J["Kumar DR"]
-    E --> K["Salma DR"]
-    E --> L["Rahul IT"]
-    E --> M["Sandhya IT"]
-    E --> N["Vijay IT"]
+  <img width="3110" height="952" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/1c3a1979-0e4c-4915-8884-5a1bc82f8fc7" />
 
   
+roup membership
+This diagram shows group membership separately from OU placement. User accounts remain in the Users OU; being a member of a group does not move the user object into the Groups OU.
+
